@@ -1,0 +1,190 @@
+{
+  "results": [
+    {
+      "id": "I1",
+      "tier": "confirmed",
+      "claims": [
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "ad": "Emotional_Story"
+            },
+            "value": 0.00916
+          },
+          "actual": 0.00916,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "ad": "Product_Demo"
+            },
+            "value": 0.00504
+          },
+          "actual": 0.00504,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "ad": "Product_Demo",
+              "placement": "Feed"
+            },
+            "value": 0.0104
+          },
+          "actual": 0.0104,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "ad": "Emotional_Story",
+              "placement": "Feed"
+            },
+            "value": 0.0098
+          },
+          "actual": 0.0098,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "ad": "Product_Demo",
+              "placement": "Stories"
+            },
+            "value": 0.0037
+          },
+          "actual": 0.0037,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "ad": "Emotional_Story",
+              "placement": "Stories"
+            },
+            "value": 0.0034
+          },
+          "actual": 0.0034,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "type": "share",
+            "metric": "impressions",
+            "filters": {
+              "placement": "Stories"
+            },
+            "within": {
+              "ad": "Product_Demo"
+            },
+            "value": 0.8
+          },
+          "actual": 0.8,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "type": "share",
+            "metric": "impressions",
+            "filters": {
+              "placement": "Stories"
+            },
+            "within": {
+              "ad": "Emotional_Story"
+            },
+            "value": 0.1
+          },
+          "actual": 0.1,
+          "status": "verified"
+        }
+      ],
+      "issues": [],
+      "score": 97.0,
+      "decision": "accept"
+    },
+    {
+      "id": "I2",
+      "tier": "hypothesis",
+      "claims": [
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "placement": "Feed"
+            },
+            "value": 0.009909
+          },
+          "actual": 0.009909,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "placement": "Stories"
+            },
+            "value": 0.003667
+          },
+          "actual": 0.003667,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "cpm",
+            "filters": {},
+            "value": 4.2
+          },
+          "actual": 4.2,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "type": "share",
+            "metric": "spend",
+            "filters": {
+              "placement": "Stories"
+            },
+            "within": {},
+            "value": 0.45
+          },
+          "actual": 0.45,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "type": "share",
+            "metric": "clicks",
+            "filters": {
+              "placement": "Stories"
+            },
+            "within": {},
+            "value": 0.2324
+          },
+          "actual": 0.232394,
+          "status": "verified"
+        }
+      ],
+      "issues": [],
+      "score": 85.0,
+      "decision": "accept"
+    }
+  ],
+  "collective": {
+    "overlapping_accepted": [],
+    "repeated_openings": {},
+    "insights_ending_in_recommendation": [],
+    "warning": null
+  },
+  "summary": {
+    "accepted": 2,
+    "rejected": 0,
+    "needs_scores": 0
+  }
+}

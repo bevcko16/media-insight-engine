@@ -1,0 +1,27 @@
+{"language":"en-GB","insights":[
+{"id":"I1","tier":"confirmed",
+"text":"On blended CTR, Emotional_Story looks like the clear winner at 0.916% against 0.504% for Product_Demo, but the comparison is not like-for-like. Product_Demo had the higher CTR in both placements: 1.04% against 0.980% in Feed and 0.370% against 0.340% in Stories. The blended gap reflects delivery, with 80% of Product_Demo's impressions in Stories compared with 10% of Emotional_Story's. Choosing a creative on the blended figure would mean choosing on placement mix, and the within-placement gaps are too small to call either asset better.",
+"claims":[
+ {"metric":"ctr","filters":{"ad":"Emotional_Story"},"value":0.00916},
+ {"metric":"ctr","filters":{"ad":"Product_Demo"},"value":0.00504},
+ {"metric":"ctr","filters":{"ad":"Product_Demo","placement":"Feed"},"value":0.0104},
+ {"metric":"ctr","filters":{"ad":"Emotional_Story","placement":"Feed"},"value":0.0098},
+ {"metric":"ctr","filters":{"ad":"Product_Demo","placement":"Stories"},"value":0.0037},
+ {"metric":"ctr","filters":{"ad":"Emotional_Story","placement":"Stories"},"value":0.0034},
+ {"type":"share","metric":"impressions","filters":{"placement":"Stories"},"within":{"ad":"Product_Demo"},"value":0.8},
+ {"type":"share","metric":"impressions","filters":{"placement":"Stories"},"within":{"ad":"Emotional_Story"},"value":0.1}],
+"causal_evidence":null,"candidate_ids":["C009","C001"],
+"alternatives_considered":["placement mix set by algorithm vs plan","audiences may differ by ad set","no controlled test"],
+"scores":{"evidence":5,"strategic":5,"depth":5,"objective_fit":5,"decision":4,"writing":4}},
+{"id":"I2","tier":"hypothesis",
+"text":"The bigger lever is placement rather than creative. Feed delivered a CTR of 0.991% against 0.367% in Stories at the same £4.20 CPM, yet Stories took 45.0% of spend for 23.2% of clicks. If Stories was bought for clicks, rebalancing towards Feed could raise clicks without a creative change, although Feed may not absorb more budget at the same price. A creative test that holds placement constant, with both assets given equal Feed and Stories delivery, would settle the creative question and the placement question together.",
+"claims":[
+ {"metric":"ctr","filters":{"placement":"Feed"},"value":0.009909},
+ {"metric":"ctr","filters":{"placement":"Stories"},"value":0.003667},
+ {"metric":"cpm","filters":{},"value":4.2},
+ {"type":"share","metric":"spend","filters":{"placement":"Stories"},"within":{},"value":0.45},
+ {"type":"share","metric":"clicks","filters":{"placement":"Stories"},"within":{},"value":0.2324}],
+"causal_evidence":null,"candidate_ids":["C006","C005"],
+"alternatives_considered":["Feed inventory may not scale","Stories role may be reach","click definitions"],
+"scores":{"evidence":3,"strategic":5,"depth":4,"objective_fit":5,"decision":5,"writing":4}}
+]}

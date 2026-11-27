@@ -1,0 +1,51 @@
+{
+  "results": [
+    {
+      "id": "Q1",
+      "tier": "question",
+      "claims": [
+        {
+          "claim": {
+            "metric": "impressions",
+            "filters": {},
+            "value": 8200
+          },
+          "actual": 8200.0,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "clicks",
+            "filters": {},
+            "value": 66
+          },
+          "actual": 66.0,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "conversions",
+            "filters": {},
+            "value": 3
+          },
+          "actual": 3.0,
+          "status": "verified"
+        }
+      ],
+      "issues": [],
+      "score": 84.0,
+      "decision": "accept"
+    }
+  ],
+  "collective": {
+    "overlapping_accepted": [],
+    "repeated_openings": {},
+    "insights_ending_in_recommendation": [],
+    "warning": null
+  },
+  "summary": {
+    "accepted": 1,
+    "rejected": 0,
+    "needs_scores": 0
+  }
+}

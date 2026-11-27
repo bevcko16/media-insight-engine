@@ -1,0 +1,217 @@
+{
+  "results": [
+    {
+      "id": "W1",
+      "tier": "confirmed",
+      "claims": [
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "ad": "Spring_6s_Bumper"
+            },
+            "value": 0.0094
+          },
+          "actual": 0.0094,
+          "status": "verified"
+        }
+      ],
+      "issues": [
+        {
+          "gate": "soft",
+          "code": "adjective_padding",
+          "message": "Evaluative adjectives doing the work: ['impressive', 'strong']."
+        },
+        {
+          "gate": "hard",
+          "code": "restates_table",
+          "message": "Reads as a single observation: fewer than two evidenced quantities or no relationship between them."
+        },
+        {
+          "gate": "soft",
+          "code": "too_short",
+          "message": "18 words; likely an observation without interpretation."
+        },
+        {
+          "gate": "soft",
+          "code": "no_standout_dimension",
+          "message": "No 5 in evidence, strategic or depth; per the rubric this is unlikely to be an 80+ insight."
+        }
+      ],
+      "score": 80.0,
+      "decision": "reject",
+      "reason": "hard gate: restates_table"
+    },
+    {
+      "id": "W2",
+      "tier": "supported",
+      "claims": [
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "ad": "Spring_6s_Bumper"
+            },
+            "value": 0.0094
+          },
+          "actual": 0.0094,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "ad": "Spring_30s_Film"
+            },
+            "value": 0.0052
+          },
+          "actual": 0.0052,
+          "status": "verified"
+        }
+      ],
+      "issues": [
+        {
+          "gate": "hard",
+          "code": "unsupported_psychology",
+          "message": "Claims about consumer psychology that campaign data cannot establish."
+        },
+        {
+          "gate": "hard",
+          "code": "unsupported_causality",
+          "message": "Causal wording [('because', '')] in a supported insight with no causal_evidence."
+        },
+        {
+          "gate": "soft",
+          "code": "too_short",
+          "message": "22 words; likely an observation without interpretation."
+        },
+        {
+          "gate": "soft",
+          "code": "no_standout_dimension",
+          "message": "No 5 in evidence, strategic or depth; per the rubric this is unlikely to be an 80+ insight."
+        }
+      ],
+      "score": 80.0,
+      "decision": "reject",
+      "reason": "hard gate: unsupported_causality, unsupported_psychology"
+    },
+    {
+      "id": "W3",
+      "tier": "confirmed",
+      "claims": [
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "ad": "Spring_6s_Bumper"
+            },
+            "value": 0.0094
+          },
+          "actual": 0.0094,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "ad": "Spring_30s_Film"
+            },
+            "value": 0.0052
+          },
+          "actual": 0.0052,
+          "status": "verified"
+        }
+      ],
+      "issues": [
+        {
+          "gate": "hard",
+          "code": "unbacked_number",
+          "message": "'25%' in the text matches no verified claim."
+        },
+        {
+          "gate": "soft",
+          "code": "banned_phrase",
+          "message": "Generic filler: /this underscores/"
+        },
+        {
+          "gate": "soft",
+          "code": "banned_phrase",
+          "message": "Generic filler: /underscores the need/"
+        },
+        {
+          "gate": "soft",
+          "code": "approximate_wording",
+          "message": "Approximate wording ['almost'] is not checked by the script; confirm each against a computed figure."
+        },
+        {
+          "gate": "soft",
+          "code": "no_standout_dimension",
+          "message": "No 5 in evidence, strategic or depth; per the rubric this is unlikely to be an 80+ insight."
+        }
+      ],
+      "score": 80.0,
+      "decision": "reject",
+      "reason": "hard gate: unbacked_number"
+    },
+    {
+      "id": "W4",
+      "tier": "confirmed",
+      "claims": [
+        {
+          "claim": {
+            "metric": "completion_rate",
+            "filters": {
+              "ad": "Spring_30s_Film"
+            },
+            "value": 0.31
+          },
+          "actual": 0.239073,
+          "status": "mismatch"
+        },
+        {
+          "claim": {
+            "metric": "completion_rate",
+            "filters": {
+              "ad": "Spring_6s_Bumper"
+            },
+            "value": 0.5554
+          },
+          "actual": 0.555423,
+          "status": "verified"
+        }
+      ],
+      "issues": [
+        {
+          "gate": "hard",
+          "code": "incorrect_calculation",
+          "message": "Stated 0.31 but data gives 0.239073 for {'metric': 'completion_rate', 'filters': {'ad': 'Spring_30s_Film'}, 'value': 0.31}."
+        },
+        {
+          "gate": "hard",
+          "code": "unbacked_number",
+          "message": "'31%' in the text matches no verified claim."
+        },
+        {
+          "gate": "soft",
+          "code": "no_standout_dimension",
+          "message": "No 5 in evidence, strategic or depth; per the rubric this is unlikely to be an 80+ insight."
+        }
+      ],
+      "score": 80.0,
+      "decision": "reject",
+      "reason": "hard gate: incorrect_calculation, unbacked_number"
+    }
+  ],
+  "collective": {
+    "score_saturation": null,
+    "overlapping_accepted": [],
+    "repeated_openings": {},
+    "insights_ending_in_recommendation": [],
+    "warning": null
+  },
+  "summary": {
+    "accepted": 0,
+    "rejected": 4,
+    "needs_scores": 0
+  }
+}

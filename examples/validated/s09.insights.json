@@ -1,0 +1,7 @@
+{"language":"en-GB","insights":[{"id":"E09-1","tier":"confirmed","scores":{"evidence":5,"strategic":5,"depth":4,"objective_fit":4,"decision":4,"writing":4},
+"text":"Click-through rate fell from 0.85% in August to 0.69% in September, yet CTR within each placement did not move: Feed held at 1.10%, Stories at 0.40% and Reels at 0.60% in both months. The decline is a change in where impressions ran rather than in how the ads performed. Feed's share of delivery fell from 60% to 35% as Stories and Reels took more of it, so the account-level CTR has become a poor guide to creative performance. Whether that shift was a deliberate reach decision or the algorithm finding cheaper inventory is the question for the buying team before anyone revisits the creative.",
+"claims":[{"metric":"ctr","filters":{"period":"P1 Aug"},"value":0.008465},{"metric":"ctr","filters":{"period":"P2 Sep"},"value":0.006936},
+{"metric":"ctr","filters":{"placement":"Feed"},"value":0.01095},{"metric":"ctr","filters":{"placement":"Stories"},"value":0.004},{"metric":"ctr","filters":{"placement":"Reels"},"value":0.006},
+{"type":"share","metric":"impressions","filters":{"placement":"Feed"},"within":{"period":"P1 Aug"},"value":0.6},
+{"type":"share","metric":"impressions","filters":{"placement":"Feed"},"within":{"period":"P2 Sep"},"value":0.35}],
+"alternatives_considered":["creative wear-out (ruled out: within-placement CTR flat)","seasonality (would show within placements)"]}]}

@@ -1,0 +1,190 @@
+{
+  "results": [
+    {
+      "id": "I1",
+      "tier": "confirmed",
+      "claims": [
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "platform": "Meta"
+            },
+            "value": 0.0081
+          },
+          "actual": 0.0081,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "platform": "TikTok"
+            },
+            "value": 0.00488
+          },
+          "actual": 0.00488,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "platform": "TikTok",
+              "placement": "Feed"
+            },
+            "value": 0.01
+          },
+          "actual": 0.01,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "platform": "Meta",
+              "placement": "Feed"
+            },
+            "value": 0.009
+          },
+          "actual": 0.009,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "platform": "TikTok",
+              "placement": "Stories"
+            },
+            "value": 0.0036
+          },
+          "actual": 0.0036,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "platform": "Meta",
+              "placement": "Stories"
+            },
+            "value": 0.003
+          },
+          "actual": 0.003,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "type": "share",
+            "metric": "impressions",
+            "filters": {
+              "placement": "Stories"
+            },
+            "within": {
+              "platform": "TikTok"
+            },
+            "value": 0.8
+          },
+          "actual": 0.8,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "type": "share",
+            "metric": "impressions",
+            "filters": {
+              "placement": "Stories"
+            },
+            "within": {
+              "platform": "Meta"
+            },
+            "value": 0.15
+          },
+          "actual": 0.15,
+          "status": "verified"
+        }
+      ],
+      "issues": [],
+      "score": 95.0,
+      "decision": "accept"
+    },
+    {
+      "id": "I2",
+      "tier": "hypothesis",
+      "claims": [
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "placement": "Feed"
+            },
+            "value": 0.00919
+          },
+          "actual": 0.00919,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "placement": "Stories"
+            },
+            "value": 0.003505
+          },
+          "actual": 0.003505,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "cpm",
+            "filters": {},
+            "value": 4.0
+          },
+          "actual": 4.0,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "type": "share",
+            "metric": "spend",
+            "filters": {
+              "placement": "Stories"
+            },
+            "within": {},
+            "value": 0.475
+          },
+          "actual": 0.475,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "type": "share",
+            "metric": "clicks",
+            "filters": {
+              "placement": "Stories"
+            },
+            "within": {},
+            "value": 0.2565
+          },
+          "actual": 0.256549,
+          "status": "verified"
+        }
+      ],
+      "issues": [],
+      "score": 85.0,
+      "decision": "accept"
+    }
+  ],
+  "collective": {
+    "overlapping_accepted": [],
+    "repeated_openings": {},
+    "insights_ending_in_recommendation": [],
+    "warning": null
+  },
+  "summary": {
+    "accepted": 2,
+    "rejected": 0,
+    "needs_scores": 0
+  }
+}

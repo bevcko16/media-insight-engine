@@ -1,0 +1,24 @@
+{"language":"en-GB","insights":[
+{"id":"I1","tier":"supported",
+"text":"YouTube cost £20.4 per thousand people reached, 2.24 times Meta's £9.12, so on the campaign's primary job of building reach it was the most expensive line. Yet its cost per completed view was £0.0450, in line with Meta's £0.0455. YouTube was buying finished views rather than cheap reach, and its share of budget is better judged on message delivery than on reach. Completion definitions and asset lengths are not given by platform, so the parity in cost per completion should be confirmed against like-for-like durations before it informs the next split.",
+"claims":[
+ {"metric":"cost_per_reach_k","filters":{"platform":"YouTube"},"value":20.4348},
+ {"type":"ratio","metric":"cost_per_reach_k","a":{"platform":"YouTube"},"b":{"platform":"Meta"},"value":2.2412},
+ {"metric":"cost_per_reach_k","filters":{"platform":"Meta"},"value":9.1176},
+ {"metric":"cpcv","filters":{"platform":"YouTube"},"value":0.044976},
+ {"metric":"cpcv","filters":{"platform":"Meta"},"value":0.045455}],
+"causal_evidence":null,"candidate_ids":["C015","C011","C002"],
+"alternatives_considered":["completion defined differently per platform (YouTube skippable vs social autoplay)","different asset durations","reach is platform-deduplicated only, not cross-platform"],
+"scores":{"evidence":4,"strategic":5,"depth":4,"objective_fit":5,"decision":4,"writing":4}},
+{"id":"I2","tier":"supported",
+"text":"TikTok bought reach almost as cheaply as Meta (£9.50 per thousand reached against £9.12) but held the fewest viewers to the end: 7.0% of starts completed, against 11.0% on Meta. Each completed view on TikTok therefore cost 47% more than on Meta. For an awareness campaign this means TikTok's reach was the thinnest in attention per pound. Whether that reflects the asset cut for TikTok or the platform's viewing pattern cannot be separated in this file; a TikTok-native edit tested against the current asset would show which.",
+"claims":[
+ {"metric":"cost_per_reach_k","filters":{"platform":"TikTok"},"value":9.4999},
+ {"metric":"cost_per_reach_k","filters":{"platform":"Meta"},"value":9.1176},
+ {"metric":"completion_rate","filters":{"platform":"TikTok"},"value":0.07},
+ {"metric":"completion_rate","filters":{"platform":"Meta"},"value":0.11},
+ {"type":"rel_diff","metric":"cpcv","a":{"platform":"TikTok"},"b":{"platform":"Meta"},"value":0.4744}],
+"causal_evidence":null,"candidate_ids":["C014"],
+"alternatives_considered":["completion definitions differ","asset duration differs","reach not cross-platform deduplicated"],
+"scores":{"evidence":4,"strategic":4,"depth":4,"objective_fit":5,"decision":4,"writing":4}}
+]}

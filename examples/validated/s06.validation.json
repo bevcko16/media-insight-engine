@@ -1,0 +1,135 @@
+{
+  "results": [
+    {
+      "id": "E06-1",
+      "tier": "confirmed",
+      "claims": [
+        {
+          "claim": {
+            "metric": "impression_delivery",
+            "filters": {
+              "platform": "YouTube"
+            },
+            "value": 0.717431
+          },
+          "actual": 0.717431,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "impression_delivery",
+            "filters": {
+              "platform": "TikTok"
+            },
+            "value": 0.70321
+          },
+          "actual": 0.70321,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "spend_pacing",
+            "filters": {
+              "platform": "YouTube"
+            },
+            "value": 0.9775
+          },
+          "actual": 0.9775,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "cpm",
+            "filters": {
+              "platform": "YouTube"
+            },
+            "value": 10.9
+          },
+          "actual": 10.9,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "planned_cpm",
+            "filters": {
+              "platform": "YouTube"
+            },
+            "value": 8.0
+          },
+          "actual": 8.0,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "type": "rel_diff",
+            "metric": "cpm",
+            "metric_b": "planned_cpm",
+            "a": {
+              "platform": "YouTube"
+            },
+            "b": {
+              "platform": "YouTube"
+            },
+            "value": 0.3625
+          },
+          "actual": 0.3625,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "cpm",
+            "filters": {
+              "platform": "TikTok"
+            },
+            "value": 4.05
+          },
+          "actual": 4.05,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "planned_cpm",
+            "filters": {
+              "platform": "TikTok"
+            },
+            "value": 4.0
+          },
+          "actual": 4.0,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "spend_pacing",
+            "filters": {
+              "platform": "TikTok"
+            },
+            "value": 0.712
+          },
+          "actual": 0.712,
+          "status": "verified"
+        }
+      ],
+      "issues": [
+        {
+          "gate": "soft",
+          "code": "approximate_wording",
+          "message": "Approximate wording ['around', 'close to'] is not checked by the script; confirm each against a computed figure."
+        }
+      ],
+      "score": 90.0,
+      "decision": "accept"
+    }
+  ],
+  "collective": {
+    "score_saturation": null,
+    "overlapping_accepted": [],
+    "repeated_openings": {},
+    "insights_ending_in_recommendation": [],
+    "warning": null
+  },
+  "summary": {
+    "accepted": 1,
+    "rejected": 0,
+    "needs_scores": 0
+  }
+}

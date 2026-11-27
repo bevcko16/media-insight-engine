@@ -1,0 +1,151 @@
+{
+  "results": [
+    {
+      "id": "I1",
+      "tier": "supported",
+      "claims": [
+        {
+          "claim": {
+            "metric": "cost_per_reach_k",
+            "filters": {
+              "platform": "YouTube"
+            },
+            "value": 20.4348
+          },
+          "actual": 20.434784,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "type": "ratio",
+            "metric": "cost_per_reach_k",
+            "a": {
+              "platform": "YouTube"
+            },
+            "b": {
+              "platform": "Meta"
+            },
+            "value": 2.2412
+          },
+          "actual": 2.241235,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "cost_per_reach_k",
+            "filters": {
+              "platform": "Meta"
+            },
+            "value": 9.1176
+          },
+          "actual": 9.117646,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "cpcv",
+            "filters": {
+              "platform": "YouTube"
+            },
+            "value": 0.044976
+          },
+          "actual": 0.044976,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "cpcv",
+            "filters": {
+              "platform": "Meta"
+            },
+            "value": 0.045455
+          },
+          "actual": 0.045455,
+          "status": "verified"
+        }
+      ],
+      "issues": [],
+      "score": 88.0,
+      "decision": "accept"
+    },
+    {
+      "id": "I2",
+      "tier": "supported",
+      "claims": [
+        {
+          "claim": {
+            "metric": "cost_per_reach_k",
+            "filters": {
+              "platform": "TikTok"
+            },
+            "value": 9.4999
+          },
+          "actual": 9.499999,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "cost_per_reach_k",
+            "filters": {
+              "platform": "Meta"
+            },
+            "value": 9.1176
+          },
+          "actual": 9.117646,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "completion_rate",
+            "filters": {
+              "platform": "TikTok"
+            },
+            "value": 0.07
+          },
+          "actual": 0.07,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "completion_rate",
+            "filters": {
+              "platform": "Meta"
+            },
+            "value": 0.11
+          },
+          "actual": 0.11,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "type": "rel_diff",
+            "metric": "cpcv",
+            "a": {
+              "platform": "TikTok"
+            },
+            "b": {
+              "platform": "Meta"
+            },
+            "value": 0.4744
+          },
+          "actual": 0.474425,
+          "status": "verified"
+        }
+      ],
+      "issues": [],
+      "score": 83.0,
+      "decision": "accept"
+    }
+  ],
+  "collective": {
+    "overlapping_accepted": [],
+    "repeated_openings": {},
+    "insights_ending_in_recommendation": [],
+    "warning": null
+  },
+  "summary": {
+    "accepted": 2,
+    "rejected": 0,
+    "needs_scores": 0
+  }
+}

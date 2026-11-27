@@ -1,0 +1,22 @@
+{
+ "s01_multiplatform_awareness": {
+  "A": "baseline",
+  "B": "skill"
+ },
+ "s07_creative_fatigue": {
+  "A": "skill",
+  "B": "baseline"
+ },
+ "s08_simpson": {
+  "A": "baseline",
+  "B": "skill"
+ },
+ "s12_insufficient_data": {
+  "A": "skill",
+  "B": "baseline"
+ },
+ "s14_adversarial": {
+  "A": "skill",
+  "B": "baseline"
+ }
+}

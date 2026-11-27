@@ -1,0 +1,91 @@
+{
+  "results": [
+    {
+      "id": "E02-1",
+      "tier": "supported",
+      "claims": [
+        {
+          "claim": {
+            "metric": "p50_of_p25",
+            "filters": {
+              "ad": "Spring_30s_Film"
+            },
+            "value": 0.52
+          },
+          "actual": 0.520001,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "p50_of_p25",
+            "filters": {
+              "ad": "Spring_15s_Product"
+            },
+            "value": 0.73
+          },
+          "actual": 0.73,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "p50_of_p25",
+            "filters": {
+              "ad": "Spring_6s_Bumper"
+            },
+            "value": 0.86
+          },
+          "actual": 0.86,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "p75_of_p50",
+            "filters": {
+              "ad": "Spring_30s_Film"
+            },
+            "value": 0.81
+          },
+          "actual": 0.809999,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "cpcv",
+            "filters": {
+              "ad": "Spring_30s_Film"
+            },
+            "value": 0.0411
+          },
+          "actual": 0.041143,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "cpcv",
+            "filters": {
+              "ad": "Spring_6s_Bumper"
+            },
+            "value": 0.0108
+          },
+          "actual": 0.010803,
+          "status": "verified"
+        }
+      ],
+      "issues": [],
+      "score": 90.0,
+      "decision": "accept"
+    }
+  ],
+  "collective": {
+    "score_saturation": null,
+    "overlapping_accepted": [],
+    "repeated_openings": {},
+    "insights_ending_in_recommendation": [],
+    "warning": null
+  },
+  "summary": {
+    "accepted": 1,
+    "rejected": 0,
+    "needs_scores": 0
+  }
+}

@@ -1,0 +1,28 @@
+{"language":"en-GB","insights":[
+{"id":"I1","tier":"supported",
+"text":"Two of the three ads lost roughly half their click-through rate over the seven weeks, but only one of them shows the pattern of fatigue. Autumn_Hero_A ran the same weekly impressions at an unchanged £4.00 CPM while weekly frequency climbed from 1.6 to 4.3, and its CTR fell from 1.10% to 0.511%. Fewer new people were seeing it each week and those already reached clicked less. Autumn_Lifestyle_C held its weekly CTR between 0.80% and 0.83% over the same weeks, which argues against a seasonal fall. A refreshed Hero execution, or a frequency cap near the early-flight level, is the response this evidence supports.",
+"claims":[
+ {"metric":"cpm","filters":{"ad":"Autumn_Hero_A"},"value":4.0},
+ {"metric":"frequency","filters":{"ad":"Autumn_Hero_A","week":"2026-09-07"},"value":1.6},
+ {"metric":"frequency","filters":{"ad":"Autumn_Hero_A","week":"2026-10-19"},"value":4.3},
+ {"metric":"ctr","filters":{"ad":"Autumn_Hero_A","week":"2026-09-07"},"value":0.011},
+ {"metric":"ctr","filters":{"ad":"Autumn_Hero_A","week":"2026-10-19"},"value":0.005109},
+ {"metric":"ctr","filters":{"ad":"Autumn_Lifestyle_C","week":"2026-10-05"},"value":0.008025},
+ {"metric":"ctr","filters":{"ad":"Autumn_Lifestyle_C","week":"2026-09-07"},"value":0.008257}],
+"causal_evidence":null,"candidate_ids":["C004"],
+"alternatives_considered":["seasonality (ruled out by flat Lifestyle_C)","CPM or inventory shift (CPM flat)","audience change (impressions constant, reach shrinking)"],
+"scores":{"evidence":5,"strategic":4,"depth":4,"objective_fit":5,"decision":5,"writing":4}},
+{"id":"I2","tier":"supported",
+"text":"Autumn_Product_B's CTR fell almost as far, from 0.950% to 0.505%, but its weekly frequency stayed at 1.7 throughout, so the same people were not seeing it more often. What changed was delivery: weekly impressions rose from 700,000 to 1,204,000 on a near-flat budget as CPM fell from £5.00 to £3.03. The decline points to the ad being served into cheaper, lower-response inventory or a wider audience, not to the creative wearing out. A new execution is unlikely to recover it; the placement and audience breakdown for this ad by week would confirm where the extra impressions went.",
+"claims":[
+ {"metric":"ctr","filters":{"ad":"Autumn_Product_B","week":"2026-09-07"},"value":0.0095},
+ {"metric":"ctr","filters":{"ad":"Autumn_Product_B","week":"2026-10-19"},"value":0.005049},
+ {"metric":"frequency","filters":{"ad":"Autumn_Product_B"},"value":1.7,"tolerance":0.02},
+ {"metric":"impressions","filters":{"ad":"Autumn_Product_B","week":"2026-09-07"},"value":700000},
+ {"metric":"impressions","filters":{"ad":"Autumn_Product_B","week":"2026-10-19"},"value":1204000},
+ {"metric":"cpm","filters":{"ad":"Autumn_Product_B","week":"2026-09-07"},"value":5.0},
+ {"metric":"cpm","filters":{"ad":"Autumn_Product_B","week":"2026-10-19"},"value":3.0318}],
+"causal_evidence":null,"candidate_ids":["C005"],
+"alternatives_considered":["fatigue (frequency flat, so unlikely)","seasonality (Lifestyle_C flat)","audience broadening vs placement shift (cannot separate without breakdown)"],
+"scores":{"evidence":4,"strategic":5,"depth":5,"objective_fit":5,"decision":4,"writing":4}}
+]}

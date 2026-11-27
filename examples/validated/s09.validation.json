@@ -1,0 +1,110 @@
+{
+  "results": [
+    {
+      "id": "E09-1",
+      "tier": "confirmed",
+      "claims": [
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "period": "P1 Aug"
+            },
+            "value": 0.008465
+          },
+          "actual": 0.008465,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "period": "P2 Sep"
+            },
+            "value": 0.006936
+          },
+          "actual": 0.006936,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "placement": "Feed"
+            },
+            "value": 0.01095
+          },
+          "actual": 0.010952,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "placement": "Stories"
+            },
+            "value": 0.004
+          },
+          "actual": 0.003999,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "placement": "Reels"
+            },
+            "value": 0.006
+          },
+          "actual": 0.005994,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "type": "share",
+            "metric": "impressions",
+            "filters": {
+              "placement": "Feed"
+            },
+            "within": {
+              "period": "P1 Aug"
+            },
+            "value": 0.6
+          },
+          "actual": 0.6,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "type": "share",
+            "metric": "impressions",
+            "filters": {
+              "placement": "Feed"
+            },
+            "within": {
+              "period": "P2 Sep"
+            },
+            "value": 0.35
+          },
+          "actual": 0.35,
+          "status": "verified"
+        }
+      ],
+      "issues": [],
+      "score": 90.0,
+      "decision": "accept"
+    }
+  ],
+  "collective": {
+    "score_saturation": null,
+    "overlapping_accepted": [],
+    "repeated_openings": {},
+    "insights_ending_in_recommendation": [],
+    "warning": null
+  },
+  "summary": {
+    "accepted": 1,
+    "rejected": 0,
+    "needs_scores": 0
+  }
+}

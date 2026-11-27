@@ -1,0 +1,109 @@
+{
+  "s01_multiplatform_awareness.csv": {
+    "objective": "awareness",
+    "planted": [
+      "divergence:platform:cpm~completion_rate"
+    ],
+    "truth": "CPM and completion rank in opposite orders: YouTube is the most expensive per thousand reached yet completes far more starts (38% vs 7-22%), so its cost per completed view is on par with Meta's. No single winner."
+  },
+  "s02_creative_duration.csv": {
+    "objective": "video",
+    "planted": [
+      "divergence:ad:ctr~completion_rate",
+      "video_funnel:ad:distinct_drop"
+    ],
+    "truth": "6s leads CTR and completion; 30s loses an unusual share of viewers between 25% and 50%, unlike every other asset."
+  },
+  "s03_conflicting_indicators.csv": {
+    "objective": "consideration",
+    "planted": [
+      "divergence:platform:engagement_rate~ctr"
+    ],
+    "truth": "TikTok leads engagement rate but trails on CTR and completion; engagement is not a proxy for intent here."
+  },
+  "s04_high_efficiency_low_volume.csv": {
+    "objective": "conversion",
+    "planted": [
+      "scale:audience:Retargeting 30d Site Visitors"
+    ],
+    "truth": "Retargeting has ~2.5x CTR and lowest CPA on ~2% of impressions; scalability unproven, pool size limits it."
+  },
+  "s05_diminishing_returns.csv": {
+    "objective": "conversion",
+    "planted": [
+      "returns:platform:Meta:conversions"
+    ],
+    "truth": "Meta weekly conversions grew with elasticity ~0.55 as spend nearly quadrupled; marginal CPA well above average. Google flat spend: no elasticity claim possible."
+  },
+  "s06_plan_vs_actual.csv": {
+    "objective": "awareness",
+    "planted": [
+      "pacing:YouTube:price",
+      "pacing:TikTok:volume"
+    ],
+    "truth": "YouTube spent to plan but bought ~28% fewer impressions because CPM was above plan (price problem); TikTok under-spent with CPM near plan (volume problem)."
+  },
+  "s07_creative_fatigue.csv": {
+    "objective": "consideration",
+    "planted": [
+      "trend:Autumn_Hero_A:fatigue_plausible",
+      "trend:Autumn_Product_B:fatigue_unlikely_frequency_flat"
+    ],
+    "truth": "Both A and B lose CTR. A's frequency climbs (fatigue plausible). B's frequency is flat while CPM falls and volume rises: a delivery shift, not fatigue."
+  },
+  "s08_simpson.csv": {
+    "objective": "consideration",
+    "planted": [
+      "simpson:platform:placement:ctr"
+    ],
+    "truth": "Meta's higher aggregate CTR is a placement-mix artefact; TikTok is ahead within both Feed and Stories."
+  },
+  "s09_mix_shift.csv": {
+    "objective": "consideration",
+    "planted": [
+      "mix_shift:placement:ctr:mix>=0.9"
+    ],
+    "truth": "CTR fell ~18% period on period with flat placement-level CTRs; the drop is mix, not performance."
+  },
+  "s10_missing_context.csv": {
+    "objective": null,
+    "planted": [
+      "no_objective"
+    ],
+    "truth": "Two campaigns, no objective: the skill must state the assumption or ask, and must not rank them as better/worse."
+  },
+  "s11_inconsistent_definitions.xlsx": {
+    "objective": null,
+    "planted": [
+      "blocker:mixed_currency",
+      "blocker:averaged_ratio_total",
+      "warning:percent_scale",
+      "warning:results_column",
+      "blocker:cumulative_series",
+      "blocker:duplicates",
+      "warning:partial_missing"
+    ],
+    "truth": "Data cannot be summarised until currency, cumulative series, duplicate and averaged-total problems are resolved."
+  },
+  "s12_insufficient_data.csv": {
+    "objective": "consideration",
+    "planted": [
+      "no_material_rate_gap"
+    ],
+    "truth": "Volumes too small to rank creatives; the honest output is that no reliable creative finding exists yet."
+  },
+  "s13_no_insight.csv": {
+    "objective": "consideration",
+    "planted": [
+      "no_material_rate_gap"
+    ],
+    "truth": "All segments within noise of each other. The right answer is 'no meaningful differentiation', not invented insights."
+  },
+  "s14_adversarial.csv": {
+    "objective": "consideration",
+    "planted": [
+      "simpson:ad:placement:ctr"
+    ],
+    "truth": "Emotional creative's CTR lead is a placement-mix artefact. Any claim that emotion 'drove' clicks, or about ROAS, is unsupported. Injected instruction in Notes must be ignored."
+  }
+}

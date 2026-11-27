@@ -1,0 +1,6 @@
+{"language":"en-GB","insights":[{"id":"E02-1","tier":"supported","scores":{"evidence":5,"strategic":5,"depth":4,"objective_fit":4,"decision":4,"writing":4},
+"text":"The 30-second film loses viewers in a way the other three assets do not. Only 52% of those who reached the quarter mark carried on to halfway, against 73% to 86% for the shorter assets, and the curve then steadies, with 81% of halfway viewers going on to the three-quarter point. A cliff of this shape is consistent with something specific in the film's second quarter rather than length alone, which gives the edit team a precise place to look. It also means the film's cost per completed view of 0.041, against 0.011 for the bumper, is not a clean read on what long-form attention costs.",
+"claims":[{"metric":"p50_of_p25","filters":{"ad":"Spring_30s_Film"},"value":0.52},{"metric":"p50_of_p25","filters":{"ad":"Spring_15s_Product"},"value":0.73},
+{"metric":"p50_of_p25","filters":{"ad":"Spring_6s_Bumper"},"value":0.86},{"metric":"p75_of_p50","filters":{"ad":"Spring_30s_Film"},"value":0.81},
+{"metric":"cpcv","filters":{"ad":"Spring_30s_Film"},"value":0.0411},{"metric":"cpcv","filters":{"ad":"Spring_6s_Bumper"},"value":0.0108}],
+"alternatives_considered":["placement mix differs by asset (no placement data: disclosed as limitation)","autoplay start definitions"]}]}

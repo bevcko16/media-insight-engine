@@ -1,0 +1,213 @@
+{
+  "results": [
+    {
+      "id": "I1",
+      "tier": "supported",
+      "claims": [
+        {
+          "claim": {
+            "metric": "cpm",
+            "filters": {
+              "ad": "Autumn_Hero_A"
+            },
+            "value": 4.0
+          },
+          "actual": 4.0,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "frequency",
+            "filters": {
+              "ad": "Autumn_Hero_A",
+              "week": "2026-09-07"
+            },
+            "value": 1.6
+          },
+          "actual": 1.6,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "frequency",
+            "filters": {
+              "ad": "Autumn_Hero_A",
+              "week": "2026-10-19"
+            },
+            "value": 4.3
+          },
+          "actual": 4.300007,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "ad": "Autumn_Hero_A",
+              "week": "2026-09-07"
+            },
+            "value": 0.011
+          },
+          "actual": 0.011,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "ad": "Autumn_Hero_A",
+              "week": "2026-10-19"
+            },
+            "value": 0.005109
+          },
+          "actual": 0.005109,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "ad": "Autumn_Lifestyle_C",
+              "week": "2026-10-05"
+            },
+            "value": 0.008025
+          },
+          "actual": 0.008025,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "ad": "Autumn_Lifestyle_C",
+              "week": "2026-09-07"
+            },
+            "value": 0.008257
+          },
+          "actual": 0.008257,
+          "status": "verified"
+        }
+      ],
+      "issues": [
+        {
+          "gate": "soft",
+          "code": "approximate_wording",
+          "message": "Approximate wording ['roughly'] is not checked by the script; confirm each against a computed figure."
+        }
+      ],
+      "score": 90.0,
+      "decision": "accept"
+    },
+    {
+      "id": "I2",
+      "tier": "supported",
+      "claims": [
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "ad": "Autumn_Product_B",
+              "week": "2026-09-07"
+            },
+            "value": 0.0095
+          },
+          "actual": 0.0095,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "ctr",
+            "filters": {
+              "ad": "Autumn_Product_B",
+              "week": "2026-10-19"
+            },
+            "value": 0.005049
+          },
+          "actual": 0.005049,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "frequency",
+            "filters": {
+              "ad": "Autumn_Product_B"
+            },
+            "value": 1.7,
+            "tolerance": 0.02
+          },
+          "actual": 1.7,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "impressions",
+            "filters": {
+              "ad": "Autumn_Product_B",
+              "week": "2026-09-07"
+            },
+            "value": 700000
+          },
+          "actual": 700000.0,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "impressions",
+            "filters": {
+              "ad": "Autumn_Product_B",
+              "week": "2026-10-19"
+            },
+            "value": 1204000
+          },
+          "actual": 1204000.0,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "cpm",
+            "filters": {
+              "ad": "Autumn_Product_B",
+              "week": "2026-09-07"
+            },
+            "value": 5.0
+          },
+          "actual": 5.0,
+          "status": "verified"
+        },
+        {
+          "claim": {
+            "metric": "cpm",
+            "filters": {
+              "ad": "Autumn_Product_B",
+              "week": "2026-10-19"
+            },
+            "value": 3.0318
+          },
+          "actual": 3.031777,
+          "status": "verified"
+        }
+      ],
+      "issues": [
+        {
+          "gate": "soft",
+          "code": "approximate_wording",
+          "message": "Approximate wording ['almost', 'near-flat'] is not checked by the script; confirm each against a computed figure."
+        }
+      ],
+      "score": 92.0,
+      "decision": "accept"
+    }
+  ],
+  "collective": {
+    "score_saturation": "Every accepted insight scored 85 or more. Re-score against the calibration notes; the set is probably being flattered.",
+    "overlapping_accepted": [],
+    "repeated_openings": {},
+    "insights_ending_in_recommendation": [],
+    "warning": null
+  },
+  "summary": {
+    "accepted": 2,
+    "rejected": 0,
+    "needs_scores": 0
+  }
+}

@@ -1,0 +1,27 @@
+{"language":"en-GB","insights":[
+{"id":"I1","tier":"confirmed",
+"text":"The headline platform ranking is the wrong way round. In total, Meta's CTR of 0.810% is well ahead of TikTok's 0.488%, yet TikTok had the higher CTR in both placements: 1.00% against 0.900% in Feed and 0.360% against 0.300% in Stories. The aggregate gap comes from where each platform's impressions ran, with 80% of TikTok's in Stories compared with 15% of Meta's. Judging the platforms on blended CTR would penalise TikTok for its placement mix rather than for how its ads performed.",
+"claims":[
+ {"metric":"ctr","filters":{"platform":"Meta"},"value":0.0081},
+ {"metric":"ctr","filters":{"platform":"TikTok"},"value":0.00488},
+ {"metric":"ctr","filters":{"platform":"TikTok","placement":"Feed"},"value":0.01},
+ {"metric":"ctr","filters":{"platform":"Meta","placement":"Feed"},"value":0.009},
+ {"metric":"ctr","filters":{"platform":"TikTok","placement":"Stories"},"value":0.0036},
+ {"metric":"ctr","filters":{"platform":"Meta","placement":"Stories"},"value":0.003},
+ {"type":"share","metric":"impressions","filters":{"placement":"Stories"},"within":{"platform":"TikTok"},"value":0.8},
+ {"type":"share","metric":"impressions","filters":{"placement":"Stories"},"within":{"platform":"Meta"},"value":0.15}],
+"causal_evidence":null,"candidate_ids":["C009","C001"],
+"alternatives_considered":["click definition may differ by platform","audiences differ between platforms","mix may be algorithmic rather than planned"],
+"scores":{"evidence":5,"strategic":5,"depth":5,"objective_fit":5,"decision":3,"writing":4}},
+{"id":"I2","tier":"hypothesis",
+"text":"Placement matters more than platform here. Feed returned a CTR of 0.919% against 0.351% for Stories at the same £4.00 CPM, yet Stories took 47.5% of spend for 25.7% of clicks, almost all of it on TikTok. Moving TikTok budget towards Feed could lift clicks for the same spend, but Feed inventory may not scale at the same price and Stories may have been bought for a different job. A controlled split of TikTok budget between Feed and Stories over two to three weeks would show whether the Feed rate holds at higher spend.",
+"claims":[
+ {"metric":"ctr","filters":{"placement":"Feed"},"value":0.00919},
+ {"metric":"ctr","filters":{"placement":"Stories"},"value":0.003505},
+ {"metric":"cpm","filters":{},"value":4.0},
+ {"type":"share","metric":"spend","filters":{"placement":"Stories"},"within":{},"value":0.475},
+ {"type":"share","metric":"clicks","filters":{"placement":"Stories"},"within":{},"value":0.2565}],
+"causal_evidence":null,"candidate_ids":["C006","C005"],
+"alternatives_considered":["Feed rate may not hold at scale","Stories may serve reach rather than clicks","click definitions"],
+"scores":{"evidence":3,"strategic":5,"depth":4,"objective_fit":5,"decision":5,"writing":4}}
+]}

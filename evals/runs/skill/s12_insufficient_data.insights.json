@@ -1,0 +1,11 @@
+{"language":"en-GB","insights":[
+{"id":"Q1","tier":"question",
+"text":"This test cannot yet name a winning creative. All four creatives together received 8,200 impressions, 66 clicks and 3 conversions, so a single extra click or conversion would reorder them. Creative C shows the most clicks and conversions, but at this volume that is as consistent with chance as with a real difference. We cannot yet tell whether any creative improves click-through or conversion; running the test until each creative has several thousand impressions and enough clicks to compare would show it, and budget should stay evenly split until then.",
+"claims":[
+ {"metric":"impressions","filters":{},"value":8200},
+ {"metric":"clicks","filters":{},"value":66},
+ {"metric":"conversions","filters":{},"value":3}],
+"causal_evidence":null,"candidate_ids":["C001","C002","C003","C004","C005"],
+"alternatives_considered":["all candidates insufficient_volume"],
+"scores":{"evidence":5,"strategic":4,"depth":3,"objective_fit":5,"decision":4,"writing":4}}
+]}
